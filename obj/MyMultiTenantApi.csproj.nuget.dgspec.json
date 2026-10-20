@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net\\DotNet_projects\\MyMultiTenantApi\\MyMultiTenantApi.csproj": {}
+    "D:\\.Net\\DotNet_projects\\MultiTenantApi\\MyMultiTenantApi.csproj": {}
   },
   "projects": {
-    "D:\\.Net\\DotNet_projects\\MyMultiTenantApi\\MyMultiTenantApi.csproj": {
+    "D:\\.Net\\DotNet_projects\\MultiTenantApi\\MyMultiTenantApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net\\DotNet_projects\\MyMultiTenantApi\\MyMultiTenantApi.csproj",
+        "projectUniqueName": "D:\\.Net\\DotNet_projects\\MultiTenantApi\\MyMultiTenantApi.csproj",
         "projectName": "MyMultiTenantApi",
-        "projectPath": "D:\\.Net\\DotNet_projects\\MyMultiTenantApi\\MyMultiTenantApi.csproj",
+        "projectPath": "D:\\.Net\\DotNet_projects\\MultiTenantApi\\MyMultiTenantApi.csproj",
         "packagesPath": "C:\\Users\\IT\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net\\DotNet_projects\\MyMultiTenantApi\\obj\\",
+        "outputPath": "D:\\.Net\\DotNet_projects\\MultiTenantApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IT\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -49,6 +49,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.11, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.18.2, )"
             }
           },
           "imports": [
